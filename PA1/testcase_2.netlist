@@ -1,0 +1,34 @@
+* Netlist of the module c17 
+
+
+Inst gat1 nand 
+Inst gat2 nand 
+Inst   gat3 nand 
+Inst gat4 nand 
+Inst   gat5 nand 
+Inst    gat6 nand 
+
+
+
+NET net11 2 
+PIN inpt1, gat1/IN1 
+NET   net2 2 
+PIN   inpt2, gat3/IN1 
+NET net3 3 
+PIN inpt3,    gat1/IN2, gat2/IN1 
+NET net6 2 
+PIN inpt6, gat2/IN2 
+NET net7 2 
+PIN    gat4/IN2 , inpt7
+NET net100 2 
+PIN gat1/OUT1 ,  gat5/IN1 
+NET net11 3 
+PIN gat2/OUT1 , gat3/IN2, gat4/IN1 
+NET net16 3 
+PIN gat3/OUT1, gat5/IN2, gat6/IN1 
+NET net19 2 
+PIN gat4/OUT1, gat6/IN2 
+NET net22 2 
+PIN  gat5/OUT1 , outpt22 
+NET net233 2 
+PIN outpt23, gat6/OUT1 

@@ -1,0 +1,555 @@
+* Netlist of the module c432
+
+Inst gat1 not
+Inst gat2 not
+Inst gat3 not
+Inst gat4 not
+Inst gat5 not
+Inst gat6 not
+Inst gat7 not
+Inst gat8 not
+Inst gat9 not
+Inst gat10 not
+Inst gat11 not
+Inst gat12 not
+Inst gat13 not
+Inst gat14 not
+Inst gat15 not
+Inst gat16 not
+Inst gat17 not
+Inst gat18 not
+Inst gat19 nand
+Inst gat20 nor
+Inst gat21 nor
+Inst gat22 nand
+Inst gat23 nand
+Inst gat24 nand
+Inst gat25 nand
+Inst gat26 nand
+Inst gat27 nand
+Inst gat28 nand
+Inst gat29 nand
+Inst gat30 nor
+Inst gat31 nor
+Inst gat32 nor
+Inst gat33 nor
+Inst gat34 nor
+Inst gat35 nor
+Inst gat36 nor
+Inst gat37 nor
+Inst gat38 nor
+Inst gat39 nor
+Inst gat40 nor
+Inst gat41 nor
+Inst gat42 nor
+Inst gat43 nor
+Inst gat44 nor
+Inst gat45 nor
+Inst gat46 and
+Inst gat47 not
+Inst gat48 not
+Inst gat49 not
+Inst gat50 xor
+Inst gat51 xor
+Inst gat52 xor
+Inst gat53 xor
+Inst gat54 xor
+Inst gat55 xor
+Inst gat56 nand
+Inst gat57 xor
+Inst gat58 nand
+Inst gat59 xor
+Inst gat60 nand
+Inst gat61 xor
+Inst gat62 nand
+Inst gat63 nand
+Inst gat64 nand
+Inst gat65 nand
+Inst gat66 nand
+Inst gat67 nand
+Inst gat68 nand
+Inst gat69 nand
+Inst gat70 nand
+Inst gat71 nand
+Inst gat72 nand
+Inst gat73 nand
+Inst gat74 nand
+Inst gat75 nand
+Inst gat76 nand
+Inst gat77 nand
+Inst gat78 nand
+Inst gat79 nand
+Inst gat80 nand
+Inst gat81 nand
+Inst gat82 nand
+Inst gat83 nand
+Inst gat84 nand
+Inst gat85 nand
+Inst gat86 and
+Inst gat87 not
+Inst gat88 not
+Inst gat89 not
+Inst gat90 not
+Inst gat91 not
+Inst gat92 not
+Inst gat93 not
+Inst gat94 not
+Inst gat95 not
+Inst gat96 not
+Inst gat97 not
+Inst gat98 not
+Inst gat99 xor
+Inst gat100 xor
+Inst gat101 xor
+Inst gat102 xor
+Inst gat103 nand
+Inst gat104 xor
+Inst gat105 nand
+Inst gat106 xor
+Inst gat107 nand
+Inst gat108 xor
+Inst gat109 nand
+Inst gat110 xor
+Inst gat111 nand
+Inst gat112 xor
+Inst gat113 nand
+Inst gat114 nand
+Inst gat115 nand
+Inst gat116 nand
+Inst gat117 nand
+Inst gat118 nand
+Inst gat119 nand
+Inst gat120 nand
+Inst gat121 nand
+Inst gat122 nand
+Inst gat123 nand
+Inst gat124 nand
+Inst gat125 nand
+Inst gat126 and
+Inst gat127 not
+Inst gat128 not
+Inst gat129 nand
+Inst gat130 nand
+Inst gat131 nand
+Inst gat132 nand
+Inst gat133 nand
+Inst gat134 nand
+Inst gat135 nand
+Inst gat136 nand
+Inst gat137 nand
+Inst gat138 nand
+Inst gat139 nand
+Inst gat140 nand
+Inst gat141 nand
+Inst gat142 nand
+Inst gat143 nand
+Inst gat144 nand
+Inst gat145 nand
+Inst gat146 nand
+Inst gat147 not
+Inst gat148 and
+Inst gat149 not
+Inst gat150 not
+Inst gat151 not
+Inst gat152 not
+Inst gat153 nor
+Inst gat154 nand
+Inst gat155 nand
+Inst gat156 nand
+Inst gat157 nand
+Inst gat158 nand
+Inst gat159 nand
+Inst gat160 nand
+
+NET net1 3
+PIN inpt1, gat1/IN1, gat56/IN1
+NET net4 4
+PIN inpt4, gat2/IN1, gat19/IN2, gat138/IN1
+NET net8 3
+PIN inpt8, gat20/IN1, gat103/IN1
+NET net11 3
+PIN inpt11, gat3/IN1, gat58/IN2
+NET net14 3
+PIN inpt14, gat21/IN1, gat129/IN1
+NET net17 4
+PIN inpt17, gat4/IN1, gat22/IN2, gat139/IN4
+NET net21 3
+PIN inpt21, gat30/IN1, gat105/IN2
+NET net24 3
+PIN inpt24, gat5/IN1, gat60/IN2
+NET net27 3
+PIN inpt27, gat31/IN1, gat130/IN2
+NET net30 4
+PIN inpt30, gat6/IN1, gat23/IN2, gat140/IN4
+NET net34 3
+PIN inpt34, gat32/IN1, gat107/IN2
+NET net37 3
+PIN inpt37, gat7/IN1, gat62/IN2
+NET net40 3
+PIN inpt40, gat33/IN1, gat131/IN2
+NET net43 4
+PIN inpt43, gat8/IN1, gat24/IN2, gat141/IN4
+NET net47 3
+PIN inpt47, gat34/IN1, gat109/IN2
+NET net50 3
+PIN inpt50, gat9/IN1, gat63/IN2
+NET net53 3
+PIN inpt53, gat35/IN1, gat132/IN2
+NET net56 4
+PIN inpt56, gat10/IN1, gat25/IN2, gat142/IN4
+NET net60 3
+PIN inpt60, gat36/IN1, gat111/IN2
+NET net63 3
+PIN inpt63, gat11/IN1, gat64/IN2
+NET net66 3
+PIN inpt66, gat37/IN1, gat133/IN2
+NET net69 4
+PIN inpt69, gat12/IN1, gat26/IN2, gat143/IN4
+NET net73 3
+PIN inpt73, gat38/IN1, gat113/IN2
+NET net76 3
+PIN inpt76, gat13/IN1, gat65/IN2
+NET net79 3
+PIN inpt79, gat39/IN1, gat134/IN2
+NET net82 4
+PIN inpt82, gat14/IN1, gat27/IN2, gat144/IN4
+NET net86 3
+PIN inpt86, gat40/IN1, gat114/IN2
+NET net89 3
+PIN inpt89, gat15/IN1, gat66/IN2
+NET net92 3
+PIN inpt92, gat41/IN1, gat135/IN2
+NET net95 4
+PIN inpt95, gat16/IN1, gat28/IN2, gat145/IN4
+NET net99 3
+PIN inpt99, gat42/IN1, gat115/IN2
+NET net102 3
+PIN inpt102, gat17/IN1, gat67/IN2
+NET net105 3
+PIN inpt105, gat43/IN1, gat136/IN2
+NET net108 4
+PIN inpt108, gat18/IN1, gat29/IN2, gat146/IN4
+NET net112 3
+PIN inpt112, gat44/IN1, gat116/IN2
+NET net115 3
+PIN inpt115, gat45/IN1, gat137/IN2
+NET net118 2
+PIN gat1/OUT1, gat19/IN1
+NET net119 3
+PIN gat2/OUT1, gat20/IN2, gat21/IN2
+NET net122 2
+PIN gat3/OUT1, gat22/IN1
+NET net123 3
+PIN gat4/OUT1, gat30/IN2, gat31/IN2
+NET net126 2
+PIN gat5/OUT1, gat23/IN1
+NET net127 3
+PIN gat6/OUT1, gat32/IN2, gat33/IN2
+NET net130 2
+PIN gat7/OUT1, gat24/IN1
+NET net131 3
+PIN gat8/OUT1, gat34/IN2, gat35/IN2
+NET net134 2
+PIN gat9/OUT1, gat25/IN1
+NET net135 3
+PIN gat10/OUT1, gat36/IN2, gat37/IN2
+NET net138 2
+PIN gat11/OUT1, gat26/IN1
+NET net139 3
+PIN gat12/OUT1, gat38/IN2, gat39/IN2
+NET net142 2
+PIN gat13/OUT1, gat27/IN1
+NET net143 3
+PIN gat14/OUT1, gat40/IN2, gat41/IN2
+NET net146 2
+PIN gat15/OUT1, gat28/IN1
+NET net147 3
+PIN gat16/OUT1, gat42/IN2, gat43/IN2
+NET net150 2
+PIN gat17/OUT1, gat29/IN1
+NET net151 3
+PIN gat18/OUT1, gat44/IN2, gat45/IN2
+NET net154 3
+PIN gat19/OUT1, gat46/IN1, gat50/IN2
+NET net157 2
+PIN gat20/OUT1, gat68/IN2
+NET net158 2
+PIN gat21/OUT1, gat69/IN2
+NET net159 3
+PIN gat22/OUT1, gat46/IN2, gat51/IN2
+NET net162 3
+PIN gat23/OUT1, gat46/IN3, gat52/IN2
+NET net165 3
+PIN gat24/OUT1, gat46/IN4, gat53/IN2
+NET net168 3
+PIN gat25/OUT1, gat46/IN5, gat54/IN2
+NET net171 3
+PIN gat26/OUT1, gat46/IN6, gat55/IN2
+NET net174 3
+PIN gat27/OUT1, gat46/IN7, gat57/IN2
+NET net177 3
+PIN gat28/OUT1, gat46/IN8, gat59/IN2
+NET net180 3
+PIN gat29/OUT1, gat46/IN9, gat61/IN2
+NET net183 2
+PIN gat30/OUT1, gat70/IN2
+NET net184 2
+PIN gat31/OUT1, gat78/IN2
+NET net185 2
+PIN gat32/OUT1, gat71/IN2
+NET net186 2
+PIN gat33/OUT1, gat79/IN2
+NET net187 2
+PIN gat34/OUT1, gat72/IN2
+NET net188 2
+PIN gat35/OUT1, gat80/IN2
+NET net189 2
+PIN gat36/OUT1, gat73/IN2
+NET net190 2
+PIN gat37/OUT1, gat81/IN2
+NET net191 2
+PIN gat38/OUT1, gat74/IN2
+NET net192 2
+PIN gat39/OUT1, gat82/IN2
+NET net193 2
+PIN gat40/OUT1, gat75/IN2
+NET net194 2
+PIN gat41/OUT1, gat83/IN2
+NET net195 2
+PIN gat42/OUT1, gat76/IN2
+NET net196 2
+PIN gat43/OUT1, gat84/IN2
+NET net197 2
+PIN gat44/OUT1, gat77/IN2
+NET net198 2
+PIN gat45/OUT1, gat85/IN2
+NET net199 4
+PIN gat46/OUT1, gat47/IN1, gat48/IN1, gat49/IN1
+NET net203 10
+PIN gat47/OUT1, gat50/IN1, gat51/IN1, gat52/IN1, gat53/IN1, gat54/IN1, gat55/IN1, gat57/IN1, gat59/IN1, gat61/IN1
+NET net213 10
+PIN gat48/OUT1, gat56/IN2, gat58/IN1, gat60/IN1, gat62/IN1, gat63/IN1, gat64/IN1, gat65/IN1, gat66/IN1, gat67/IN1
+NET net223 2
+PIN outpt223, gat49/OUT1
+NET net224 3
+PIN gat50/OUT1, gat68/IN1, gat69/IN1
+NET net227 3
+PIN gat51/OUT1, gat70/IN1, gat78/IN1
+NET net230 3
+PIN gat52/OUT1, gat71/IN1, gat79/IN1
+NET net233 3
+PIN gat53/OUT1, gat72/IN1, gat80/IN1
+NET net236 3
+PIN gat54/OUT1, gat73/IN1, gat81/IN1
+NET net239 3
+PIN gat55/OUT1, gat74/IN1, gat82/IN1
+NET net242 2
+PIN gat56/OUT1, gat138/IN2
+NET net243 3
+PIN gat57/OUT1, gat75/IN1, gat83/IN1
+NET net246 2
+PIN gat58/OUT1, gat139/IN1
+NET net247 3
+PIN gat59/OUT1, gat76/IN1, gat84/IN1
+NET net250 2
+PIN gat60/OUT1, gat140/IN1
+NET net251 3
+PIN gat61/OUT1, gat77/IN1, gat85/IN1
+NET net254 2
+PIN gat62/OUT1, gat141/IN1
+NET net255 2
+PIN gat63/OUT1, gat142/IN1
+NET net256 2
+PIN gat64/OUT1, gat143/IN1
+NET net257 2
+PIN gat65/OUT1, gat144/IN1
+NET net258 2
+PIN gat66/OUT1, gat145/IN1
+NET net259 2
+PIN gat67/OUT1, gat146/IN1
+NET net260 3
+PIN gat68/OUT1, gat86/IN1, gat99/IN2
+NET net263 2
+PIN gat69/OUT1, gat87/IN1
+NET net264 3
+PIN gat70/OUT1, gat86/IN2, gat100/IN2
+NET net267 3
+PIN gat71/OUT1, gat86/IN3, gat101/IN2
+NET net270 3
+PIN gat72/OUT1, gat86/IN4, gat102/IN2
+NET net273 3
+PIN gat73/OUT1, gat86/IN5, gat104/IN2
+NET net276 3
+PIN gat74/OUT1, gat86/IN6, gat106/IN2
+NET net279 3
+PIN gat75/OUT1, gat86/IN7, gat108/IN2
+NET net282 3
+PIN gat76/OUT1, gat86/IN8, gat110/IN2
+NET net285 3
+PIN gat77/OUT1, gat86/IN9, gat112/IN2
+NET net288 2
+PIN gat78/OUT1, gat88/IN1
+NET net289 2
+PIN gat79/OUT1, gat89/IN1
+NET net290 2
+PIN gat80/OUT1, gat90/IN1
+NET net291 2
+PIN gat81/OUT1, gat91/IN1
+NET net292 2
+PIN gat82/OUT1, gat92/IN1
+NET net293 2
+PIN gat83/OUT1, gat93/IN1
+NET net294 2
+PIN gat84/OUT1, gat94/IN1
+NET net295 2
+PIN gat85/OUT1, gat95/IN1
+NET net296 4
+PIN gat86/OUT1, gat96/IN1, gat97/IN1, gat98/IN1
+NET net300 2
+PIN gat87/OUT1, gat117/IN2
+NET net301 2
+PIN gat88/OUT1, gat118/IN2
+NET net302 2
+PIN gat89/OUT1, gat119/IN2
+NET net303 2
+PIN gat90/OUT1, gat120/IN2
+NET net304 2
+PIN gat91/OUT1, gat121/IN2
+NET net305 2
+PIN gat92/OUT1, gat122/IN2
+NET net306 2
+PIN gat93/OUT1, gat123/IN2
+NET net307 2
+PIN gat94/OUT1, gat124/IN2
+NET net308 2
+PIN gat95/OUT1, gat125/IN2
+NET net309 10
+PIN gat96/OUT1, gat99/IN1, gat100/IN1, gat101/IN1, gat102/IN1, gat104/IN1, gat106/IN1, gat108/IN1, gat110/IN1, gat112/IN1
+NET net319 10
+PIN gat97/OUT1, gat103/IN2, gat105/IN1, gat107/IN1, gat109/IN1, gat111/IN1, gat113/IN1, gat114/IN1, gat115/IN1, gat116/IN1
+NET net329 2
+PIN outpt329, gat98/OUT1
+NET net330 2
+PIN gat99/OUT1, gat117/IN1
+NET net331 2
+PIN gat100/OUT1, gat118/IN1
+NET net332 2
+PIN gat101/OUT1, gat119/IN1
+NET net333 2
+PIN gat102/OUT1, gat120/IN1
+NET net334 2
+PIN gat103/OUT1, gat138/IN3
+NET net335 2
+PIN gat104/OUT1, gat121/IN1
+NET net336 2
+PIN gat105/OUT1, gat139/IN2
+NET net337 2
+PIN gat106/OUT1, gat122/IN1
+NET net338 2
+PIN gat107/OUT1, gat140/IN2
+NET net339 2
+PIN gat108/OUT1, gat123/IN1
+NET net340 2
+PIN gat109/OUT1, gat141/IN2
+NET net341 2
+PIN gat110/OUT1, gat124/IN1
+NET net342 2
+PIN gat111/OUT1, gat142/IN2
+NET net343 2
+PIN gat112/OUT1, gat125/IN1
+NET net344 2
+PIN gat113/OUT1, gat143/IN2
+NET net345 2
+PIN gat114/OUT1, gat144/IN2
+NET net346 2
+PIN gat115/OUT1, gat145/IN2
+NET net347 2
+PIN gat116/OUT1, gat146/IN2
+NET net348 2
+PIN gat117/OUT1, gat126/IN1
+NET net349 2
+PIN gat118/OUT1, gat126/IN2
+NET net350 2
+PIN gat119/OUT1, gat126/IN3
+NET net351 2
+PIN gat120/OUT1, gat126/IN4
+NET net352 2
+PIN gat121/OUT1, gat126/IN5
+NET net353 2
+PIN gat122/OUT1, gat126/IN6
+NET net354 2
+PIN gat123/OUT1, gat126/IN7
+NET net355 2
+PIN gat124/OUT1, gat126/IN8
+NET net356 2
+PIN gat125/OUT1, gat126/IN9
+NET net357 3
+PIN gat126/OUT1, gat127/IN1, gat128/IN1
+NET net360 10
+PIN gat127/OUT1, gat129/IN2, gat130/IN1, gat131/IN1, gat132/IN1, gat133/IN1, gat134/IN1, gat135/IN1, gat136/IN1, gat137/IN1
+NET net370 2
+PIN outpt370, gat128/OUT1
+NET net371 2
+PIN gat129/OUT1, gat138/IN4
+NET net372 2
+PIN gat130/OUT1, gat139/IN3
+NET net373 2
+PIN gat131/OUT1, gat140/IN3
+NET net374 2
+PIN gat132/OUT1, gat141/IN3
+NET net375 2
+PIN gat133/OUT1, gat142/IN3
+NET net376 2
+PIN gat134/OUT1, gat143/IN3
+NET net377 2
+PIN gat135/OUT1, gat144/IN3
+NET net378 2
+PIN gat136/OUT1, gat145/IN3
+NET net379 2
+PIN gat137/OUT1, gat146/IN3
+NET net380 2
+PIN gat138/OUT1, gat147/IN1
+NET net381 5
+PIN gat139/OUT1, gat148/IN1, gat158/IN1, gat159/IN1, gat160/IN1
+NET net386 7
+PIN gat140/OUT1, gat148/IN2, gat154/IN1, gat155/IN1, gat157/IN1, gat158/IN2, gat159/IN2
+NET net393 6
+PIN gat141/OUT1, gat148/IN3, gat149/IN1, gat155/IN2, gat156/IN2, gat157/IN2
+NET net399 5
+PIN gat142/OUT1, gat148/IN4, gat155/IN4, gat156/IN1, gat158/IN4
+NET net404 3
+PIN gat143/OUT1, gat148/IN5, gat150/IN1
+NET net407 4
+PIN gat144/OUT1, gat148/IN6, gat151/IN1, gat157/IN3
+NET net411 3
+PIN gat145/OUT1, gat148/IN7, gat152/IN1
+NET net414 2
+PIN gat146/OUT1, gat148/IN8
+NET net415 2
+PIN gat147/OUT1, gat153/IN1
+NET net416 2
+PIN gat148/OUT1, gat153/IN2
+NET net417 2
+PIN gat149/OUT1, gat154/IN2
+NET net418 2
+PIN gat150/OUT1, gat155/IN3
+NET net419 2
+PIN gat151/OUT1, gat156/IN3
+NET net420 2
+PIN gat152/OUT1, gat157/IN4
+NET net421 2
+PIN outpt421, gat153/OUT1
+NET net422 3
+PIN gat154/OUT1, gat158/IN3, gat160/IN2
+NET net425 3
+PIN gat155/OUT1, gat159/IN3, gat160/IN3
+NET net428 2
+PIN gat156/OUT1, gat159/IN4
+NET net429 2
+PIN gat157/OUT1, gat160/IN4
+NET net430 2
+PIN outpt430, gat158/OUT1
+NET net431 2
+PIN outpt431, gat159/OUT1
+NET net432 2
+PIN outpt432, gat160/OUT1

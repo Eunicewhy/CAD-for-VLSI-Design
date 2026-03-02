@@ -1,0 +1,42 @@
+* Netlist of the module A_ccOOIYT
+
+Inst  gat1 nand 
+Inst gat2 nand 
+Inst  gat7 nor 
+Inst   gat4 nand 
+Inst gat5 xor 
+Inst gat6 and 
+Inst gat3 or 
+Inst  gat15 not
+Inst   gat9    and 
+
+NET net8 4 
+PIN inpt1, gat1/IN1, gat6/IN1, gat9/IN1
+NET net2 2 
+PIN  gat7/IN1, inpt9
+NET net3 4 
+PIN inpt3, gat1/IN2, gat2/IN1, gat3/IN2 
+NET net6 3 
+PIN inpt6, gat2/IN2, gat3/IN1  
+NET net7 3
+PIN inpt7, gat4/IN2, gat9/IN2
+NET net10 2 
+PIN gat1/OUT1, gat5/IN1 
+NET net11 4
+PIN gat2/OUT1, gat7/IN2, gat4/IN1, gat3/IN3 
+NET net16 3 
+PIN gat7/OUT1, gat5/IN2, gat6/IN3 
+NET net19 3
+PIN gat6/IN2, gat9/IN3, gat4/OUT1
+NET net17 2 
+PIN  gat5/OUT1, outpt1
+NET net23 2 
+PIN gat15/IN1,  gat3/OUT1 
+NET net24 2 
+PIN outpt2, gat6/OUT1 
+NET net27 2 
+PIN gat15/OUT1, outpt4
+NET net29 2 
+PIN gat9/IN4, inpt5
+NET net33 2 
+PIN gat9/OUT1, outpt3

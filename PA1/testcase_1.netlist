@@ -1,0 +1,31 @@
+* Netlist of the module me1 
+
+Inst gat1 xor 
+Inst gat2 xor 
+Inst gat3 and 
+Inst gat4 and 
+Inst gat5 or
+Inst outbuffer1 buf
+Inst outbuffer2 buf 
+
+  
+NET net1 3 
+PIN inptA, gat1/IN1, gat4/IN1
+NET net2 3
+PIN inptB, gat1/IN2, gat4/IN2
+NET net3 3
+PIN inptC, gat2/IN2, gat3/IN2
+NET net4 3
+PIN gat1/OUT1, gat2/IN1, gat3/IN1
+NET net5 2
+PIN gat2/OUT1, outbuffer1/IN1
+NET net6 2
+PIN outbuffer1/OUT1, outptSum
+NET net7 2
+PIN gat3/OUT1, gat5/IN1
+NET net8 2
+PIN gat4/OUT1, gat5/IN2
+NET net9 2
+PIN gat5/OUT1, outbuffer2/IN1
+NET net10 2
+PIN outbuffer2/OUT1, outptCarry
